@@ -119,7 +119,7 @@ print(result)
 first_paragraph = "When, in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the powers of the earth, the separate and equal station to which the laws of nature and of nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
 first_paragraph.replace("people","citizens")
 print(first_paragraph)
-new_first_paragraph= "".join(first_paragraph)
+new_first_paragraph= "✔".join(first_paragraph)
 print(new_first_paragraph)
 
 
