@@ -1,14 +1,14 @@
 # String Properties Practice #1
 # Concatenate the text "Repetition" 15 times and display the result on the screen.
 # Luckily, you know that strings are multipliable and you can do this activity in a simple and elegant way.
-# result= "repetition "*1
-# print(result)
+result= "repetition "*1
+print(result)
 
-# first_paragraph = "When, in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the powers of the earth, the separate and equal station to which the laws of nature and of nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
-# first_paragraph.replace("people","citizens")
-# print(first_paragraph)
-# new_first_paragraph= ",".join(first_paragraph)
-# print(new_first_paragraph)
+first_paragraph = "When, in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the powers of the earth, the separate and equal station to which the laws of nature and of nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
+first_paragraph.replace("people","citizens")
+print(first_paragraph)
+new_first_paragraph= ",".join(first_paragraph)
+print(new_first_paragraph)
 
 
 # String Properties Practice #2
@@ -22,7 +22,13 @@ print(sentence1 ,"is beach in the haiku?", beach_in)
 
 
 # String Properties Practice #3
-# Check the Python Documentation to find the description of the len() function. Then, display on the screen the length (in number of characters) of the word electroencephalographist.
+# Check the Python Documentation to find the description of the len() function. Then, display on the screen the length (in number of characters) of the word 
+word = "electroencephalographist"
+print(len(word))
+print(word[0:25])
+
+#YAO
+#emily
 
 ################################list###################################################
 # Lists Practice #1
