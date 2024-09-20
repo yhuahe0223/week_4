@@ -64,16 +64,23 @@ great = "It's great to work with computers. They don't argue, they remember ever
 print(great[::-1])
 
 ##################################### String Methods#################################
+
 # String Methods Practice #1
 #slieds 12 -16
 # Print the following text in uppercase, using the specific string method:
 # "Especially in electronic communications, writing in all caps is equivalent to yelling."
-# sentence = "Especially in electronic communications, writing in all caps is equivalent to yelling."
 
+sentence = "Especially in electronic communications, writing in all caps is equivalent to yelling."
+print(sentence.upper())##prints the sentence in uppercase 
+
+sentence2= "ESPN IS GREAT"
+print(sentence2.lower())##prints the sentence in all lowercase 
+
+print(sentence.find("communications "))
 # String Methods Practice #2
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 # word_list = ["Simple","is","better","than","complex."]
-
+print(sentence.replace("communications", "COMMUNICATIONS"))
 # String Methods Practice #3
 # Replace in the following sentence:
 # "If the implementation is hard to explain, it might be a bad idea."
@@ -81,12 +88,40 @@ print(great[::-1])
 # "hard" --> "easy"
 # "bad" --> "good"
 # and display the sentence with both words modified.
+sentence3 = "If the implementation is hard to explain, it might be a bad idea."
+print(sentence3.replace("hard","easy"), sentence3.replace("bad","good"))
+modifed_sentence= sentence3.replace("hard","easy"), sentence3.replace("bad","good") 
+print(modifed_sentence)
+
+##join method 
+word_list = ["Simple","is","better","than","complex."]
+
+print(word_list)
+joined_sentence =  "❤❤❤".join(word_list)
+print(joined_sentence)
+#this how to join a "list" of word to gether in a sentence
+
+sentence4 = "I am a python programmer"
+print(sentence4.split())##splits the sentence with commas in between becoming a lists words by default   
+print(sentence4.split(",")) ## Splits the sentence into list with spaces becoming one sentence again 
+
+
+
 
 #################################string properties################################
 
 # String Properties Practice #1
 # Concatenate the text "Repetition" 15 times and display the result on the screen.
 # Luckily, you know that strings are multipliable and you can do this activity in a simple and elegant way.
+result= "damnn "*1
+print(result)
+
+first_paragraph = "When, in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the powers of the earth, the separate and equal station to which the laws of nature and of nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
+first_paragraph.replace("people","citizens")
+print(first_paragraph)
+new_first_paragraph= "".join(first_paragraph)
+print(new_first_paragraph)
+
 
 # String Properties Practice #2
 # Check if the word "beach" is not found in the following haiku. You should print the boolean.
